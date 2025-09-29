@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('banking', 'raw_customers') }}

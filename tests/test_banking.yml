@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_customer_spend
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+      - name: total_spend
+        tests:
+          - not_null
